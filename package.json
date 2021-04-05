@@ -1,7 +1,7 @@
 {
-  "name": "project-2-starter",
+  "name": "conference-room-booker",
   "version": "1.0.0",
-  "description": "",
+  "description": "If you need to keep track of the cleanliness of your study rooms, use The Reserve!",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jonathanjwatson/project-2-starter.git"
+    "url": "https://github.com/Aikeh2021/conference-room-booker"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jonathanjwatson/project-2-starter/issues"
+    "url": "https://github.com/Aikeh2021/conference-room-booker/issues"
   },
-  "homepage": "https://github.com/jonathanjwatson/project-2-starter#readme",
+  "homepage": "https://github.com/Aikeh2021/conference-room-booker",
   "dependencies": {
     "@handlebars/allow-prototype-access": "^1.0.3",
     "express": "^4.17.1",
