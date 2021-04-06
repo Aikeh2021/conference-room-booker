@@ -2,7 +2,7 @@
 
 ![screenshot](public/assets/img/the-reserve-screenshot.png)
 
-[The Reserve Site](https://still-ravine-68015.herokuapp.com/)
+[The Reserve Site](https://immense-refuge-69876.herokuapp.com/rooms)
 
 ## Description 
 

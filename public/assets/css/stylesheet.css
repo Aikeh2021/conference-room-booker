@@ -3,7 +3,7 @@ body {
   background-image: url(/assets/img/college_library5.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-attachment: fixed;
 }
 
@@ -14,20 +14,19 @@ body {
 #title-heading {
   padding-top: 50px;
   text-align: center;
-  color: #050141;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #0a023b;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 35px;
-  font-style: oblique;
   backdrop-filter: blur(20px);
   padding-bottom: 5px;
   width: 50%;
   margin: 0 auto;
+  font-weight: 600;
 }
 
 /* CSS for the rooms dashboard page */
 
 .dashboard-table {
-  /* padding-left: 150px; */
   text-align: center;
   border-collapse: collapse;
   margin-bottom: 0;
@@ -40,6 +39,7 @@ body {
 
 .dashboard-table td {
   border-bottom: 1px dashed #d7d7d7;
+  font-weight: 600;
 }
 
 .dashboard-table a {
@@ -82,7 +82,7 @@ body {
 
 .dashboard-table-text {
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 600;
   margin-bottom: 0;
   margin-top: 0.5rem;
 }
@@ -119,12 +119,12 @@ form .form-icons h4 {
 }
 
 form .form-icons .input-group-label {
-  background-color: #1779ba;
-  border-color: #1779ba;
+  background-color: #21B6A8;
+  border-color: #21B6A8;
 }
 
 form .form-icons .input-group-field {
-  border-color: #1779ba;
+  border-color: #21B6A8;
 }
 
 form .form-icons .fa {
@@ -178,14 +178,15 @@ form .form-icons .fa {
 }
 
 #edit-room-form label {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
   font-weight: 600;
 }
 
-h4 {
-  font-family: "Times New Roman", Times, serif;
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 600;
+  text-align: center;
 }
 
 /* modal css  */
@@ -198,15 +199,12 @@ body > * {
 }
 
 .first {
-  background: cornflowerblue;
+  background: #1779ba;
   color: white;
-  border: none;
   padding: 10px;
-  border-radius: 8px;
-  font-family: "Lato";
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-top: 20px;
-  text-transform: uppercase;
-  outline: none;
   text-align: center;
 }
 
@@ -217,3 +215,11 @@ body > * {
 .first-div {
   margin-top: 25px;
 }
+
+/* Stylings for the buttons on the create and edit room forms */
+.button.expanded {
+  font-weight: 600;
+  font-size: 20px;
+  background: #21B6A8;
+}
+
