@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Aikeh2021/conference-room-booker"
+    "url": "git+https://github.com/jonathanjwatson/project-2-starter.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Aikeh2021/conference-room-booker/issues"
+    "url": "https://github.com/jonathanjwatson/project-2-starter/issues"
   },
-  "homepage": "https://github.com/Aikeh2021/conference-room-booker",
+  "homepage": "https://github.com/jonathanjwatson/project-2-starter#readme",
   "dependencies": {
     "@handlebars/allow-prototype-access": "^1.0.3",
     "express": "^4.17.1",
